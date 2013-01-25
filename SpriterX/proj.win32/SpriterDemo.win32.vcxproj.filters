@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="source">
+      <UniqueIdentifier>{5bc19db9-7f2f-4a0e-a486-ff2dff0af002}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm</Extensions>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{d707c359-ea3c-48b2-9ccf-0700f3ccc4b8}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc</Extensions>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{f4b36cb4-1f99-41a4-8a9b-b4ebc937f8c0}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;jpg;jpeg;jpe;png;manifest</Extensions>
+    </Filter>
+    <Filter Include="classes">
+      <UniqueIdentifier>{243057b9-77c5-4947-9336-fc5d6504ccc8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="classes\tinyXML">
+      <UniqueIdentifier>{8c0788bd-9749-4920-a059-253bf8a4cd9f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\SpriterDemo.ico">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\CloseSelected.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\CloseNormal.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\HelloWorld.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\Example.SCML">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\Hero.SCML">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\mon_arms\forearm_0.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\mon_arms\forearm_a.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\mon_arms\hand_0_0.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\mon_arms\hand_0_1.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\mon_arms\hand_0_2.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\mon_arms\hand_0_3.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\mon_arms\hand_a_0.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\mon_arms\hand_a_1.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\mon_arms\hand_a_2.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\mon_arms\hand_a_3.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\mon_arms\shoulder_0.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\mon_arms\shoulder_a.png">
+      <Filter>resource</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="SpriterDemo.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\HelloWorldScene.h">
+      <Filter>classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\tinyxml\tinystr.h">
+      <Filter>classes\tinyXML</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\tinyxml\tinyxml.h">
+      <Filter>classes\tinyXML</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CCSpriterX.h">
+      <Filter>classes</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\HelloWorldScene.cpp">
+      <Filter>classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\tinyxml\tinyxmlparser.cpp">
+      <Filter>classes\tinyXML</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\tinyxml\tinystr.cpp">
+      <Filter>classes\tinyXML</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\tinyxml\tinyxml.cpp">
+      <Filter>classes\tinyXML</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\tinyxml\tinyxmlerror.cpp">
+      <Filter>classes\tinyXML</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CCSpriterX.cpp">
+      <Filter>classes</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
