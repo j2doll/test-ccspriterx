@@ -79,43 +79,52 @@ bool HelloWorld::init()
 		// 3. create sprite from spriter resource 
 
 		// create 'Example.SCML'
-		CCSpriterX *animator = CCSpriterX::create( "Example.SCML" );
-		CC_BREAK_IF(! animator);
-		animator->setPosition(ccp(110, 350));
-		animator->setScale(0.5f); // half size 
-		int tag = 100;
-		this->addChild(animator, 0, tag);
+		{
+			CCSpriterX* animator = CCSpriterX::create( "Example.SCML" );
+			CC_BREAK_IF(! animator);
+			animator->setPosition(ccp(110, 350));
+			animator->setScale(0.5f); // half size 
+			int tag = 100;
+			this->addChild(animator, 0, tag);
+		}
+		
 
 		// create 'Example.SCML' 
-		animator = CCSpriterX::create( "Example.SCML" );
-		CC_BREAK_IF(! animator);
-		animator->setPosition(ccp(380, 160));
-		animator->setScale(1.0f);
-		// animator->PlayNext(); // play next 
-		tag = 110;
-		this->addChild(animator, 0, tag);
+		{
+			CCSpriterX* animator = CCSpriterX::create( "Example.SCML" );
+			CC_BREAK_IF(! animator);
+			animator->setPosition(ccp(380, 160));
+			animator->setScale(1.0f);
+			// animator->PlayNext(); // play next 
+			int tag = 110;
+			this->addChild(animator, 0, tag);
+		}
 
-		// create 'Hero.SCML' 
-		animator = CCSpriterX::create( "Hero.SCML" );
-		CC_BREAK_IF(! animator);
-		animator->setPosition(ccp(50, 200));
-		animator->setScale(0.5f); // half size  
-		tag = 200;
-		this->addChild(animator, 0, tag);
+		// create 'Hero.SCML'
+		{
+			CCSpriterX* animator = CCSpriterX::create( "Hero.SCML" );
+			CC_BREAK_IF(! animator);
+			animator->setPosition(ccp(50, 200));
+			animator->setScale(0.5f); // half size  
+			int tag = 200;
+			this->addChild(animator, 0, tag);
+		}
 
-		// create 'Hero.SCML' 
-		animator = CCSpriterX::create( "Hero.SCML" );
-		CC_BREAK_IF(! animator);
-		animator->setPosition(ccp(130, 200));
-		animator->setScale(1.0f);
-		// animator->PlayNext(); // play next 
-		tag = 210;
-		this->addChild(animator, 0, tag); 
+		// create 'Hero.SCML'
+		{
+			CCSpriterX* animator = CCSpriterX::create( "Hero.SCML" );
+			CC_BREAK_IF(! animator);
+			animator->setPosition(ccp(130, 200));
+			animator->setScale(1.0f);
+			// animator->PlayNext(); // play next 
+			int tag = 210;
+			this->addChild(animator, 0, tag); 
+		}
 
 		CCDirector* pDirector = CCDirector::sharedDirector();
 		pDirector->getTouchDispatcher()->addTargetedDelegate(this, 0, true);
 
-
+		// test code 		
 		schedule( schedule_selector(HelloWorld::TestChangeAnimation), 1.0 );
 
         bRet = true;
