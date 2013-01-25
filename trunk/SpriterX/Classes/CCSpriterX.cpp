@@ -1,20 +1,9 @@
-//------------------------------------------------------------------------
-//
-//	CCSpriterX : KickStarter project Spriter renderer for cocos2d-x.
-//
-//	Spriter website : http://www.kickstarter.com/projects/539087245/spriter
-//
-//	Licensed under the BSD license, see LICENSE in root for details.
-// 
-//	Copyright (c) 2012 James Hui (a.k.a. Dr.Watson)
-// 
-//	For latest updates, please visit http://jameshui.com
-//
-//------------------------------------------------------------------------
+
+#include "cocos2d.h" 
+using namespace cocos2d;
 
 #include "CCSpriterX.h"
 
-USING_NS_CC;
 
 namespace SCMLHelper
 {
