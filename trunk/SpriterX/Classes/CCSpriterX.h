@@ -7,6 +7,7 @@
 //	For latest updates, please visit http://jameshui.com
 //------------------------------------------------------------------------
 // I corrected a part of this code. (Jan.2013, j2doll)  
+// http://code.google.com/p/test-ccspriterx/
 //------------------------------------------------------------------------
 
 #ifndef _CC_SPRITER_X_H_
@@ -17,7 +18,7 @@
 #include "cocos2d.h" // current cocos2d-x version is 2.x. (2.0.x ~ 2.1) 
 #include "tinyxml/tinyxml.h" // TinyXML : http://www.sourceforge.net/projects/tinyxml
 
-// Sprite: http://www.brashmonkey.com/ 
+// Spriter: http://www.brashmonkey.com/ 
 // NOTE: current Spriter version is 1.0. (alpha 2) 
 
 class CCSpriterX;
