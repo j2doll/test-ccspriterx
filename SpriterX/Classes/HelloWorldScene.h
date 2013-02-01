@@ -20,7 +20,10 @@ public:
 
 	bool ccTouchBegan(cocos2d::CCTouch* touch, cocos2d::CCEvent* event);
 
-private:
+protected:
+
+	// CCSpriterX* getChildByTag();
+
 	void TestChangeAnimation(float dt); // test code 
 
 };
