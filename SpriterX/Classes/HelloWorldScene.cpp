@@ -125,7 +125,7 @@ bool HelloWorld::init()
 		pDirector->getTouchDispatcher()->addTargetedDelegate(this, 0, true);
 
 		// test code 		
-		schedule( schedule_selector(HelloWorld::TestChangeAnimation), 1.0 );
+		schedule( schedule_selector(HelloWorld::TestChangeAnimation), 4.0 );
 
         bRet = true;
 
