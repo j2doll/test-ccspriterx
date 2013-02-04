@@ -844,17 +844,23 @@ CCSprite *CCSpriterX::getSprite(unsigned int folderId, unsigned int fileId)
 	return NULL;
 }
 
-
+//-----------------------------------------------------------------------------
+//
 bool CCSpriterX::initWithFile(const char *filename)
 {
-	mCurrEntity = 0;
-
-	unsigned long filesize;
-	const char *path = CCFileUtils::sharedFileUtils()->fullPathFromRelativePath(filename);
-	char *buffer = (char *)CCFileUtils::sharedFileUtils()->getFileData(path, "rb", &filesize);
-
-	if (buffer == NULL)
+	if ( filename == NULL )
 		return false;
+
+	const char* path = CCFileUtils::sharedFileUtils()->fullPathFromRelativePath(filename);
+	if ( path == NULL )
+		return false;
+
+	unsigned long filesize = 0; 
+	char* buffer = (char *) CCFileUtils::sharedFileUtils()->getFileData(path, "rb", &filesize);
+	if ( buffer == NULL )
+		return false;
+
+	mCurrEntity = 0;
 
 	TiXmlDocument doc;
 
