@@ -181,7 +181,9 @@ public:
 
 	static CCSpriterX* create(const char *filename, unsigned int maxFolderSize = MAX_SPRITERX_FOLDER, unsigned int maxEntitySize = MAX_SPRITERX_ENTITY);
 
-	bool initWithFile(const char *filename);
+	bool initWithFile(const char* scmlFileName); 
+
+public: 
 
 	cocos2d::CCSprite* getSprite(unsigned int folderId, unsigned int fileId); 
 
