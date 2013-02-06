@@ -6,25 +6,27 @@
 class HelloWorld : public cocos2d::CCLayer
 {
 public:
+
     // Here's a difference. Method 'init' in cocos2d-x returns bool, instead of returning 'id' in cocos2d-iphone
     virtual bool init();  
 
-    // there's no 'id' in cpp, so we recommand to return the exactly class pointer
+    // there's no 'id' in cpp, so we recommend to return the exactly class pointer
     static cocos2d::CCScene* scene();
-    
-    // a selector callback
-    void menuCloseCallback(CCObject* pSender);
 
-    // implement the "static node()" method manually
-    CREATE_FUNC(HelloWorld);
-
-	bool ccTouchBegan(cocos2d::CCTouch* touch, cocos2d::CCEvent* event);
+	// implement the "static node()" method manually (cocos2d-x ver.2) 
+	CREATE_FUNC(HelloWorld);
 
 protected:
 
-	// CCSpriterX* getChildByTag();
+	// a selector callback
+	void menuCloseCallback(CCObject* pSender);
 
-	void TestChangeAnimation(float dt); // test code 
+	bool ccTouchBegan(cocos2d::CCTouch* touch, cocos2d::CCEvent* event);
+
+	// test code (schedule-timer) 
+	void TestChangeAnimation(float dt); 
+
+	// CCSpriterX* getChildByTag();
 
 };
 

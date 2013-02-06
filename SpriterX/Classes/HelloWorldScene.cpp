@@ -183,7 +183,8 @@ void HelloWorld::TestChangeAnimation(float dt)
 		}
 	}
 	
-
+	// (1) tag number
+	// (2) animation name 
 	animator = (CCSpriterX *)this->getChildByTag( 200 );
 	{
 		if ( test200 == 0 )
