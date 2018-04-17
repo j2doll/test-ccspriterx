@@ -1,7 +1,8 @@
 # CCSpriterX
- - test code for CCSpriterX (now printing...)
- - initial code: http://jameshui.com
+ - Test code for CCSpriterX (now printing...)
+ - Initial CCSpriterX code from : http://jameshui.com
  - Spriter(Brash Monkey): http://www.brashmonkey.com
+ - MIT License
 
 ![](https://brashmonkey.com/wp-content/uploads/2015/11/logo.png)
 
