@@ -1,4 +1,5 @@
 # CCSpriterX
+ - https://github.com/j2doll/test-ccspriterx
  - Test code for CCSpriterX (now printing...)
  - Initial CCSpriterX code from : http://jameshui.com
  - Spriter(Brash Monkey): http://www.brashmonkey.com
