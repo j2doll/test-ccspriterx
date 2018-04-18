@@ -5,9 +5,9 @@
  
 ![](https://brashmonkey.com/wp-content/uploads/2015/11/logo.png)
 
-![](/SpriterX/Resources/HelloWorld.png)
+![](/markdown.data/HelloWorld.png)
 
-![](/SpriterX/001.png)
+![](/markdown.data/001.png)
 
 - https://github.com/j2doll/test-ccspriterx
 - MIT License
