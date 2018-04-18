@@ -3,7 +3,7 @@
  - Initial CCSpriterX code from : http://jameshui.com
  - Spriter(Brash Monkey): http://www.brashmonkey.com
  
-![](https://brashmonkey.com/wp-content/uploads/2015/11/logo.png)
+![](/markdown.data/bm-logo.png)
 
 ![](/markdown.data/HelloWorld.png)
 
