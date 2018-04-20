@@ -1,5 +1,5 @@
 # CCSpriterX
-  - Test code for CCSpriterX & Brashmonkey SCML
+ - Test code for CCSpriterX & Brash Monkey SCML
  - Initial CCSpriterX code from : http://jameshui.com
  - Spriter(Brash Monkey): http://www.brashmonkey.com
  
