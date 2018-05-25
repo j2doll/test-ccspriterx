@@ -7,12 +7,9 @@
  - Use Cocos2d-x : http://www.cocos2d-x.org
  
 ## Image  
-![](https://github.com/j2doll/test-ccspriterx/blob/master/markdown.data/bm-logo.png)
-
-
-![](https://github.com/j2doll/test-ccspriterx/blob/master/markdown.data/HelloWorld.png)
-
-![](https://github.com/j2doll/test-ccspriterx/blob/master/markdown.data/001.png)
+![](https://j2doll.github.com/test-ccspriterx/markdown.data/bm-logo.png)
+![](https://j2doll.github.com/test-ccspriterx/markdown.data/markdown.data/HelloWorld.png)
+![](https://j2doll.github.com/test-ccspriterx/markdown.data/markdown.data/001.png)
 
 ## Contacts
 - [https://github.com/j2doll/test-ccspriterx](https://github.com/j2doll/test-ccspriterx)
